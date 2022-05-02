@@ -144,6 +144,7 @@ body{
    text-align:left;
    transition:0.5s;
    margin-left:2%;
+   margin-right:2%;
   }
   .menu:hover .text{
    font-size:16.5px;
