@@ -333,7 +333,7 @@ p{margin:0;}
   .l3:hover{height:400px;}
   .l4{height:410px;}
   .l4:hover{ height:420px;}
-	.inv:hover .effect{height:90px;width:90px;}
+  .inv:hover .effect{height:90px;width:90px;}
   .inv:hover{height:90px;width:90px;margin-top:40px;}
   .inv:hover .im{height:90px;width:90px;}	  
 }
