@@ -22,6 +22,7 @@ p{margin:0;}
 .main{
   box-shadow:0 0 10px 10px #11111155;
   width:80%;
+  height:auto;
   margin: 4% 10% 4% 10%;
   display:inline-flex;
   border-radius:20px;
@@ -30,7 +31,9 @@ p{margin:0;}
 
 .leftbar{
   width:30%;
-  height:100%;
+  height:auto;
+  padding-top:0.5%;
+  padding-bottom:0.5%;
   position:relative;
 }
 
