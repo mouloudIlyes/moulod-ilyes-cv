@@ -39,6 +39,7 @@ p{margin:0;}
 
 .allmenu{
   width:70%;
+  height:auto;
   padding:0.5%;
   margin:0% 0% 0% 0%;
   background:#232333;
@@ -159,7 +160,7 @@ p{margin:0;}
   width:26%;
 }
     
-.console{color:#FFFA; margin:2%;font-size:19px;width:66%;height:100px;text-align:top;}
+.console{color:#FFFA; margin:2%;font-size:19px;width:66%;height:100px;}
 .corser{display:inline-block;position:relative;top:1px;width:10px; height:20px; background:#fffe;}
 .hide{opacity:0;}
 
@@ -246,7 +247,7 @@ p{margin:0;}
 }
 
 @media only screen and (max-width: 1100px) {
-  .console{font-size:15px;}
+  .console{height:80px;font-size:15px;}
   .im{height:160px;width:160px;}
   .effect{height:160px;width:160px;}
   .inv:hover .effect{height:200px;width:200px;}
@@ -261,8 +262,8 @@ p{margin:0;}
 
 @media only screen and (max-width: 910px) {
   .about{display:inline;align-items:center}
-  .H{margin:2%;font-size:30px;width:96%;}
-  .console{margin:2%;width:96%;font-size:17px;}
+  .H{font-size:30px;width:96%;}
+  .console{width:96%;font-size:17px;}
   .leftimage{height:170px;}
   .im{height:120px;width:120px;}
   .effect{height:120px;width:120px;}
