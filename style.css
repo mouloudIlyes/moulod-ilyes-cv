@@ -161,7 +161,7 @@ p{margin:0;}
   width:26%;
 }
     
-.console{color:#FFFA; margin:2%;font-size:19px;width:66%;height:100px;font-family:monospace;}
+.console{color:#FFFA; margin:2%;font-size:19px;width:66%;height:100px;font-family:monospace;text-align:justify;}
 .corser{display:inline-block;position:relative;top:1px;width:10px; height:20px; background:#fffe;}
 .hide{opacity:0;}
 
