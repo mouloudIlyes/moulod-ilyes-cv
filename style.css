@@ -262,7 +262,7 @@ p{margin:0;}
 @media only screen and (max-width: 910px) {
   .about{display:inline;align-items:center}
   .H{font-size:30px;width:96%;}
-  .console{height:100px;width:96%;font-size:17px;}
+  .console{height:110px;width:96%;font-size:17.5px;}
   .leftimage{height:170px;}
   .im{height:120px;width:120px;}
   .effect{height:120px;width:120px;}
@@ -273,8 +273,7 @@ p{margin:0;}
 }
 
 @media only screen and (max-width: 710px) {
-  .H{font-size:30px;}
-  .console{font-size:15px; height:120px;} 
+  .console{font-size:16px;} 
   .im{height:90px;width:90px;}
   .effect{height:90px;width:90px;}
   .inv:hover .effect{height:120px;width:120px;}
