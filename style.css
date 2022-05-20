@@ -92,7 +92,7 @@ p{margin:0;}
 
 .button{
   width:60%;
-  height:50px;
+  line-height:50px;
   font-size:19px;
   top:100%;
   left: 50%;
@@ -104,7 +104,6 @@ p{margin:0;}
   border-radius:50px;
   box-shadow:0 0 10px #11111177;
   position:absolute;
-  margin:0;
 }
 
 .im{
@@ -269,11 +268,13 @@ p{margin:0;}
 @media only screen and (max-width: 1300px) {
   .main{width:90%;margin: 4% 5% 4% 5%;}
   .H{font-size:40px;}
-  .console{height:90px;font-size:17px;} 
+  .console{height:90px;font-size:17px;}
+  .button{font-size:17px;}
 }
 
 @media only screen and (max-width: 1100px) {
-  .console{font-size:15px;} 
+  .console{font-size:15px;}
+  
   .im{height:160px;width:160px;}
   .effect{height:160px;width:160px;}
   .inv:hover .effect{height:200px;width:200px;}
@@ -302,7 +303,8 @@ p{margin:0;}
 }
 
 @media only screen and (max-width: 710px) {
-  .console{font-size:15px;} 
+  .console{font-size:15px;}
+  .button{font-size:15px;}
   .im{height:90px;width:90px;}
   .effect{height:90px;width:90px;}
   .inv:hover .effect{height:120px;width:120px;}
