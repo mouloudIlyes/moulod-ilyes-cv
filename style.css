@@ -6,8 +6,7 @@ body{
   font-weight:normal;
   color:#FFF;
   background:#1B1B2E;
-  background-image:linear-gradient(to bottom left  ,#00FFDCC0 ,#7D00EAC0 ,#DA0062C0,#DD2C00C0);
-  filter:blur(100%);   
+  background-image:linear-gradient(to bottom left  ,#00FFDCC0 ,#7D00EAC0 ,#DA0062C0,#DD2C00C0);  
   background-attachment:fixed;
   background-size:cover;	 
   transition:0.5s;
@@ -287,13 +286,13 @@ p{margin:0;}
   .text ,.lefttitle,.lefttext,.progresstext{font-size:14px;}
    ul{padding-left:14px;}
    h2{font-size:22px;}
+  .button{font-size:15px;}
 }
 
 @media only screen and (max-width: 910px) {
   .about{display:inline;align-items:center}
   .H{font-size:30px;width:96%;}
   .console{height:110px;width:96%;font-size:17px;}
-  .button{font-size:15px;}
   .leftimage{height:170px;}
   .im{height:120px;width:120px;}
   .effect{height:120px;width:120px;}
