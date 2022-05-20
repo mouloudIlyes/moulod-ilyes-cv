@@ -6,7 +6,7 @@ body{
   font-weight:normal;
   color:#FFF;
   background:#1B1B2E;
-  background-image:linear-gradient(to bottom left  ,#00FFDC77 ,#7D00EA77 ,#DA006277,#DD2C0077);
+  background-image:linear-gradient(to bottom left  ,#00FFDCC0 ,#7D00EAC0 ,#DA0062C0,#DD2C00C0);
   filter:blur(100%);   
   background-attachment:fixed;
   background-size:cover;	 
@@ -233,19 +233,19 @@ p{margin:0;}
   transition: 0.05s;
 }
 
-.l1{background-image:linear-gradient(to bottom right,#ED1C46,#DA0062);}
+.l1{background-image:linear-gradient(to bottom right,#ED1C46EE,#DA0062EE);}
 .l1:hover{box-shadow:0px 0px 10px #ED1C46;}
 .l1:hover h2{;text-shadow:0 0 10px #ED1C46;}
     
-.l2{background-image:linear-gradient(to bottom right,#00FFDC,#00BAB4);}
+.l2{background-image:linear-gradient(to bottom right,#00FFDCEE,#00BAB4EE);}
 .l2:hover{box-shadow:0 0 10px #00FFDC;}
 .l2:hover h2{text-shadow:0 0 10px #00FFDC;}
     
-.l3{background-image:linear-gradient(to bottom right,#ED530B,#DD2C00);}
+.l3{background-image:linear-gradient(to bottom right,#ED530BEE,#DD2C00EE);}
 .l3:hover{box-shadow:0 0 10px #ED530B;}
 .l3:hover h2{text-shadow:0 0 10px #ED530B;}
     
-.l4{background-image:linear-gradient(to bottom right,#AA00FF,#7D00EA);}
+.l4{background-image:linear-gradient(to bottom right,#AA00FFEE,#7D00EAEE);}
 .l4:hover{box-shadow:0 0 10px #AA00FF;}
 .l4:hover h2{text-shadow:0 0 10px #AA00FF;}
   
