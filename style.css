@@ -275,7 +275,6 @@ p{margin:0;}
 
 @media only screen and (max-width: 1100px) {
   .console{font-size:15px;}
-  
   .im{height:160px;width:160px;}
   .effect{height:160px;width:160px;}
   .inv:hover .effect{height:200px;width:200px;}
@@ -294,6 +293,7 @@ p{margin:0;}
   .about{display:inline;align-items:center}
   .H{font-size:30px;width:96%;}
   .console{height:110px;width:96%;font-size:17px;}
+  .button{font-size:15px;}
   .leftimage{height:170px;}
   .im{height:120px;width:120px;}
   .effect{height:120px;width:120px;}
@@ -305,7 +305,7 @@ p{margin:0;}
 
 @media only screen and (max-width: 710px) {
   .console{font-size:15px;}
-  .button{font-size:15px;}
+  .button{line-height:25px;}
   .im{height:90px;width:90px;}
   .effect{height:90px;width:90px;}
   .inv:hover .effect{height:120px;width:120px;}
