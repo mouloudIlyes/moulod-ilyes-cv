@@ -270,6 +270,7 @@ p{margin:0;}
   .H{font-size:40px;}
   .console{height:90px;font-size:17px;}
   .button{font-size:17px;}
+  .S{display:none;}
 }
 
 @media only screen and (max-width: 1100px) {
