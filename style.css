@@ -35,8 +35,7 @@ p{margin:0;}
   margin: 4% 10% 4% 10%;
   display:inline-flex;
   border-radius:20px;
-  position:absolute;
-    
+  position:absolute;  
 }
 
 .leftbar{
@@ -56,10 +55,11 @@ p{margin:0;}
   border-radius:20px;
   position:relative;
 }
+
 .about{
   height:260px;
   display:flex;
-  align-items:center
+  align-items:center;
 }
 
 .menu{
@@ -238,6 +238,10 @@ p{margin:0;}
   display: block;
   transition: 0.05s;
 }
+.center{
+ width:100%;
+ display: inherit;
+}
 
 .l1{background-image:linear-gradient(to bottom right,#ED1C46EE,#DA0062EE);}
 .l1:hover{box-shadow:0 0 20px #ED1C46;}
@@ -283,7 +287,7 @@ p{margin:0;}
 @media only screen and (max-width: 1300px) {
   .main{width:84%;margin: 4% 8% 4% 8%;}
   .S{font-size: 190px;line-height:190px;}
-  .H{font-size:40px;}
+  .H{font-size:44px;}
   .console{height:90px;font-size:17px;}
 }
 
@@ -304,36 +308,39 @@ p{margin:0;}
   .C{background-attachment:scroll;background-size:auto;background-repeat:no-repeat ;}
 }
 
-@media only screen and (max-width: 1100px) {
-  .about{display:inline;align-items:center}
-  .H{font-size:30px;width:96%;}
-  .console{height:110px;width:96%;font-size:17px;}
-  .leftimage{height:180px;}
-  .im{height:130px;width:130px;}
-  .effect{height:130px;width:130px;}
-  .inv:hover .effect{height:150px;width:150px;}
-  .inv{height:130px;width:130px;}
-  .inv:hover{height:150px;width:150px;}
-  .inv:hover .im{height:150px;width:150px;}
+@media only screen and (max-width: 1110px) {
+  .about{height:240px;}
+  .center{display:block;}
+  .H{font-size:40px;width:96%;}
+  .console{width:96%;height:90px;font-size:17px;}
+  .leftimage{height:240px;}
+  .im{height:170px;width:170px;}
+  .effect{height:170px;width:170px;}
+  .inv:hover .effect{height:190px;width:190px;}
+  .inv{height:170px;width:170px;}
+  .inv:hover{height:190px;width:190px;}
+  .inv:hover .im{height:190px;width:190px;}
   .text ,.lefttitle,.lefttext,.progresstext{font-size:12px;}
 }
 
 @media only screen and (max-width: 800px) {
+  .H{font-size:32px;}
   .console{font-size:15px;}
-  .leftimage{height:170px;}
-  .im{height:100px;width:100px;}
-  .effect{height:100px;width:100px;}
-  .inv:hover .effect{height:120px;width:120px;}
-  .inv{height:100px;width:100px;}
-  .inv:hover{height:120px;width:120px;}
-  .inv:hover .im{height:120px;width:120px;}
+  .im{height:150px;width:150px;}
+  .effect{height:150px;width:150px;}
+  .inv:hover .effect{height:170px;width:170px;}
+  .inv{height:150px;width:150px;}
+  .inv:hover{height:170px;width:170px;}
+  .inv:hover .im{height:170px;width:170px;}
   .vide{height:10px;width:10px;}
   .plein{height:10px;width:10px;}
 }
 
 @media only screen and (max-width: 600px) {
-  .leftimage{height:160px;}
-  .inv:hover .effect{height:100px;width:100px;}
-  .inv:hover{height:100px;width:100px;}
-  .inv:hover .im{height:100px;width:100px;}	 
+  .im{height:100px;width:100px;}
+  .effect{height:100px;width:100px;}
+  .inv:hover .effect{height:110px;width:110px;}
+  .inv{height:100px;width:100px;}
+  .inv:hover{height:110px;width:110px;}
+  .inv:hover .im{height:110px;width:110px;}}	 
 }
