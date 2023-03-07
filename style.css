@@ -353,7 +353,7 @@ li b{color:#112;}
   width:360px;
   filter:sepia(100%) hue-rotate(170deg) brightness(100%);
   transition:0.3s all;
-  background-image:url("resource/MI.jpg");
+  background-image:url("resource/mi_.jpg");
   background-size:cover;
   background-position:center; 
   mix-blend-mode:;
