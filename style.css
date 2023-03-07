@@ -27,8 +27,7 @@ h2{
   }
 h4{font-size:24px;font-weight: normal;color:#112a;}
 h3{font-size:24px; margin:2%;text-align: center;}
-ul{padding-left:16px;list-style-type:disc}
-li b{color:#112;}  
+
 
 .body{
   position:fixed;
@@ -52,7 +51,7 @@ li b{color:#112;}
   box-shadow: 1px 2px 4px #3353; 
 }
 .myportfolio{
-  margin:2%;
+  margin:24px;
   margin-right:auto;
   font-size:48px;
   font-weight: bold;
@@ -71,7 +70,7 @@ li b{color:#112;}
 }
 
 .divbutton{
-  width:176px;
+  width:184px;
   height:100%;
   display:flex;
   align-items:center;
@@ -108,7 +107,7 @@ li b{color:#112;}
 .s1{
   width:100%;
   height:auto;
-  min-height:640px;
+  min-height:100vh;
   padding-bottom:24px;
   display:inline-flex;
   position:relative; 
@@ -122,7 +121,7 @@ li b{color:#112;}
 .s2{
   width:100%;
   height:auto;
-  min-height:640px;
+  min-height:100vh;
   padding-bottom:24px;
   display:inline-flex;
   position:relative;  
@@ -130,7 +129,7 @@ li b{color:#112;}
 .s3{
   width:100%;
   height:auto;
-  min-height:640px;
+  min-height:100vh;
   padding-bottom:24px;
   display:block;
   position:relative; 
@@ -141,7 +140,7 @@ li b{color:#112;}
  .s4{
   width:100%;
   height:auto;
-  min-height:640px;
+  min-height:100vh;
   padding-bottom:24px;
   display:block;
   position:relative; 
@@ -489,13 +488,7 @@ li b{color:#112;}
 .symbol3{font-size:72px;}
 .invlayout:hover .symbol3{transform: translate(170%,-170%);}
 
-.monospace{font-family:monospace;}
-	   
-@keyframes textType{
-  0%{left:0%;}
-  50%{left:100%;}
-  100%{left:0%;}
-}  
+.monospace{font-family:monospace;} 
  
 @media (prefers-color-scheme: dark) {
 body{
@@ -553,12 +546,26 @@ li b{color:#fff;}
 
 @media only screen and (max-width: 1000px) {
 
+.topbar{
+  height:128px;
+}
 .navbaritem{
   display:none;
 }
+.divbutton{
+  width:240px;
+}
+.button{
+  font-size:40px;
+  width:160px;
+  padding:16px;
+  border-radius:40px;
+}
 .s1,.s2,.s3,.s4{
-  padding-top:6%;
+  display:flex;
   flex-direction:column;
+  justify-content:center;
+  align-items:center;
 }
 .customlayout{
   width:100%;
@@ -581,28 +588,61 @@ li b{color:#fff;}
 .imglayout{
   border-radius: 100%;
   height:0;
-  width:50%;
-  padding-bottom: 50%;
+  width:75%;
+  padding-bottom: 75%;
   top:0;
   left:0;
   transform: translate(0%,0%);
-  margin-top:80px;
+  margin-top:120px;
+  margin-bottom:40px;
 }
+.ident{
+  margin-top:40px;
+  margin-bottom:40px;
+}
+h1{font-size:72px;}
+h2{font-size:56px;}
+h4{font-size:40px;}
+
+.console{
+  height:560px;
+  margin-top:40px;
+  margin-bottom:40px;
+}
+.point{
+  width: 24px;
+  height: 24px;
+  margin:0 8px;
+}
+.disc{
+  font-size:24px;
+  line-height:32px
+}
+.corser{width:16px; height:24px;}
+
 .invlayout,.imginv{
-  height:320px;
-  width:320px;
+  height:480px;
+  width:480px;
   border-radius:100%;
 }
 
 .invlayout{
   margin-top:80px;
-  margin-bottom:72px;
-  }
-.symbol1{transform: translate(-180%,-180%);}
-.symbol2{transform: translate(-140%,140%);}
-.symbol3{transform: translate(170%,-170%);}
+  margin-bottom:80px;
+}
+
+.symbol1{font-size:112px;transform: translate(-200%,-200%);}
+.symbol2{font-size:104px;transform: translate(-170%,170%);}
+.symbol3{font-size:96px;transform: translate(190%,-190%);}
+
 .skills,.projects{
   display:block;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+.title{
+  font-size:64px;
+  padding-top:6%;
 }
 .skill,.project{
   width:88%; 
@@ -616,21 +656,21 @@ li b{color:#fff;}
   border-radius:24px  0 0 24px;
   box-shadow: 0 8px 8px -8px #3353;
 }
+h3{font-size:48px;}
 .skilldisc{
+  font-size:40px;
   width:46%;
   margin:2%;
 }
 .projectimg{
-  width:50%;
+  width:46%;
   height:92%;
   margin:2%;
 }
 .projectdisc{
-  width:42%;
+  width:46%;
   margin:2%;
-  font-size:16px;
-  text-align: left;
-  opacity:0.8 ;
+  font-size:32px;
 }
 
 }
