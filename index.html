@@ -57,7 +57,7 @@
     <div class="centerlayout">
       <div class="console">
         <div class="points"><label class="point" style="background:#00EECC"></label><label class="point" style="background:#0088FF"></label><label class="point" style="background:#DD00CC"></label></div>
-        <div class="disc monospace"><b class="text"><label style="color:#00DDDD">Portfolio@Mouloud-Ilyes</label>:<label style="color:#DD00CC">~</label>$ </b>A -propos<br/><br/><span id="discripton"></span><div class="corser" id="corser_id" ></div></div>
+        <div class="disc monospace"><b class="text"><label style="color:#00DDDD">Portfolio@Mouloud-Ilyes</label>:<label style="color:#DD00CC">~</label>$ </b>A -propos<br/><span id="discripton"></span><div class="corser" id="corser_id" ></div></div>
       </div>
     </div>
     <div class="centerlayout">
@@ -208,13 +208,12 @@
       var visible=true;
       var element=document.getElementById('corser_id');
       var minCompt=1;
-      var x=1;
-      var d=80;                                                                                                              
+      var x=1;                                                                                                              
       var run=false;
       var stop=false;
       var terget=document.getElementById(id);
       window.setInterval(function(){
-        if(minCompt===0 && !stop){ 
+        if(minCompt<=0 && !stop){ 
           stop=true;
           terget.innerHTML=words[0].substring(0,minCompt);
           window.setTimeout(function(){
@@ -223,7 +222,7 @@
             x=1;
             minCompt+=x;
             stop=false;
-          },100);
+          },70);
         }else if(minCompt===words[0].length+1 && !stop){
           run=true;
           stop=true;                                                                                                            
@@ -231,13 +230,13 @@
             x=-1;
             minCompt+=x;
             stop=false;
-          },5000);
+          },10000);
         }else if(!stop){
           run=false;
           terget.innerHTML=words[0].substring(0,minCompt);
           minCompt+=x;
         }
-      },100);
+      },70);
       window.setInterval(function(){
         if(visible && run){
           element.className='corser hide';
