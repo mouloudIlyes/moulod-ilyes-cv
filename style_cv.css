@@ -1,5 +1,5 @@
 body{
-  text-decoration:;
+  /*text-decoration:;*/
   margin:0;
   padding:0;
   font-family:Arial;
@@ -124,7 +124,7 @@ p{margin:0;}
   background-image:url("resource/mi.jpg");
   background-size:cover;
   background-position:center; 
-  mix-blend-mode:;
+ /* mix-blend-mode:;*/
 }
 
 .effect{
@@ -276,7 +276,7 @@ p{margin:0;}
 
 .l1{background-image:linear-gradient(to bottom right,#DD00CCDD,#AA00FFDD);}
 .l1:hover{box-shadow:0 0 16px #DD00CC;}
-.l1:hover h2{;text-shadow:0 0 16px #DD00CC;}
+.l1:hover h2{text-shadow:0 0 16px #DD00CC;}
 /*.l1:hover li b{text-shadow:0 0 8px #ED1C46;}*/
     
 .l2{background-image:linear-gradient(to bottom right,#00EECCDD,#00BAB4DD);}
@@ -400,6 +400,6 @@ li b{color:#fff;}
   .inv:hover .effect{height:110px;width:110px;}
   .inv{height:100px;width:100px;}
   .inv:hover{height:110px;width:110px;}
-  .inv:hover .im{height:110px;width:110px;}}	 
-}
+  .inv:hover .im{height:110px;width:110px;}
+}	 
 
